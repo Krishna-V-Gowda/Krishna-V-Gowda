@@ -9,6 +9,8 @@ I build systems where consequential assumptions become **state, invariants, inde
   &nbsp;·&nbsp;
   <a href="mailto:kris7090779999@gmail.com"><strong>Contact</strong></a>
   &nbsp;·&nbsp;
+  <a href="https://krivance.com/"><strong>krivance.com</strong></a>
+  &nbsp;·&nbsp;
   Bengaluru, India
 </p>
 
@@ -41,7 +43,7 @@ I build systems where consequential assumptions become **state, invariants, inde
 |---|---|---|
 | **[TrustBench](https://github.com/Krishna-V-Gowda/TrustBench)** × **[Apex](https://github.com/Krishna-V-Gowda/EDA-InsightLab-Apex)** | Is the analytical product actually computing what it claims? | Exact shipped source, independent statistical references, counterexamples, and a measured defect-to-repair transition. |
 | **[RiskLab](https://github.com/Krishna-V-Gowda/RiskLab)** | Which allocation decisions survive estimation error, regime change, turnover, costs, and tail risk? | Six allocation rules, strict trailing windows, paired block-bootstrap uncertainty, and an adverse synthetic result retained rather than tuned away. |
-| **[DATA301 ML Studio](https://github.com/Krishna-V-Gowda/DATA301-ML-Studio)** | Can interactive ML remain mathematically inspectable? | Twelve laboratories, framework-independent TypeScript numerical cores, and 36 source tests including metamorphic properties. |
+| **[DATA301 ML Studio](https://github.com/Krishna-V-Gowda/DATA301-ML-Studio)** | Can interactive ML remain mathematically inspectable? | Twelve live laboratories, framework-independent TypeScript numerical cores, and 60 source tests including 7 metamorphic properties. |
 
 <p align="center">
   <img src="assets/system-map.svg" alt="Five technical worlds connected through bounded evidence" width="100%">
@@ -69,4 +71,4 @@ Reliable AI around consequential workflows · event-driven and low-level systems
 
 ## Contact
 
-[kris7090779999@gmail.com](mailto:kris7090779999@gmail.com) · [krishna-v-gowda.github.io](https://krishna-v-gowda.github.io/)
+[kris7090779999@gmail.com](mailto:kris7090779999@gmail.com) · [krishna-v-gowda.github.io](https://krishna-v-gowda.github.io/) · [krivance.com](https://krivance.com/)
