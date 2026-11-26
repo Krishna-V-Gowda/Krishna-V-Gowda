@@ -40,9 +40,16 @@ I'm Krishna, a computer science student in Bengaluru and the co-founder and CTO 
 <b><a href="https://github.com/Krishna-V-Gowda/EDA-InsightLab-Apex">EDA InsightLab Apex</a></b>: a data-exploration app that runs entirely in your browser. The live build is fingerprinted against what TrustBench verified.
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://krishna-v-gowda.github.io/systems/dayflow.html"><img src="assets/cards/dayflow.png" alt="Dayflow: every workday, intelligently aligned" width="100%"></a>
+<b><a href="https://github.com/Krishna-V-Gowda/dayflow-hrms">Dayflow</a></b>: an HR system that shows how approving a leave changes team coverage, with a risk call and its reasons, before anyone decides.
+</td>
+<td width="50%" valign="top">
+<b><a href="https://krishna-v-gowda.github.io/">Play with all seven</a></b>: every project on my site has a live panel running on its real data. Tamper with a signed record, corrupt a market feed, or drag points and watch a model refit.
+</td>
+</tr>
 </table>
-
-Also: [Dayflow](https://github.com/Krishna-V-Gowda/dayflow-hrms), an HR system that shows how approving a leave changes team coverage before anyone decides.
 
 ## How I work
 
