@@ -7,6 +7,8 @@
 <a href="mailto:kris7090779999@gmail.com"><img src="assets/btn-email.svg" alt="Email me" height="40"></a>
 </p>
 
+**Second Prize (State Level), CAG–ICSSR Research Article Competition 2026** for *“Alignment is not realignment: a post-audit test of KKRDB’s geographic need responsiveness”* ([official result](https://d1jmc0u14z2tmp.cloudfront.net/uploads/media/CAG-ICSSR-state-level-results-06b053d704bf3a7-59050429.pdf)).
+
 I build software that can prove its own results, and I put the proof where you can run it yourself. On my portfolio your browser re-checks a signed, Bitcoin-timestamped forecast record, and every project below has a live panel running on its real data.
 
 ## The work
