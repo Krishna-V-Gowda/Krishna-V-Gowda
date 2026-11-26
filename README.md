@@ -1,74 +1,56 @@
-<p align="center">
-  <img src="assets/header.svg" alt="Krishna V. Gowda — evidence-bearing systems" width="100%">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" alt="Krishna V. Gowda. I build systems that prove they're right." width="100%">
+</picture>
 
-I build systems where consequential assumptions become **state, invariants, independent references, controlled experiments, and explicit limits**. The projects below span financial controls, market infrastructure, analytical reliability, quantitative research, and scientific machine learning—but share one standard: every important claim should terminate in an artifact you can inspect or execute.
+I'm Krishna, a computer science student in Bengaluru and the co-founder and CTO of [KRIVANCE](https://krivance.com/). I build software that can prove its own results, and I put the proof where you can run it yourself.
 
-<p align="center">
-  <a href="https://krishna-v-gowda.github.io/"><strong>Systems atlas</strong></a>
-  &nbsp;·&nbsp;
-  <a href="mailto:kris7090779999@gmail.com"><strong>Contact</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://krivance.com/"><strong>krivance.com</strong></a>
-  &nbsp;·&nbsp;
-  Bengaluru, India
-</p>
+**[Open my portfolio](https://krishna-v-gowda.github.io/)** to watch it happen: your browser re-checks a public, Bitcoin-timestamped forecast record, refuses a settlement that is ₹1.37 short, and replays an exchange feed with a correctness check after every message.
 
-## Start here
+## The work
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Krishna-V-Gowda/proofloom"><img src="assets/proofloom.svg" alt="Proofloom" width="100%"></a>
-
-### [Proofloom](https://github.com/Krishna-V-Gowda/proofloom)
-**Financial truth under ambiguity.** A verification-first settlement close where AI ranks damaged evidence, deterministic financial invariants retain authority, and a 137-paise contradiction blocks the close.
-
-`FastAPI` · `financial controls` · `human-in-the-loop` · `auditability`
+<a href="https://krishna-v-gowda.github.io/systems/proofloom.html"><img src="assets/cards/proofloom.png" alt="Proofloom: close the cash, keep the proof" width="100%"></a>
+<b><a href="https://github.com/Krishna-V-Gowda/proofloom">Proofloom</a></b>: a payments settlement close where a model ranks messy evidence, but fixed money rules and a human decide. A 137-paise gap blocks the close.
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Krishna-V-Gowda/MarketReplay"><img src="assets/marketreplay.svg" alt="MarketReplay" width="100%"></a>
-
-### [MarketReplay](https://github.com/Krishna-V-Gowda/MarketReplay)
-**Reconstruct the market state. Prove the state.** C++20 replay for a bounded ITCH subset, checked against an independently implemented Python oracle and a retained 500,000-message workload.
-
-`C++20` · `binary protocols` · `state machines` · `differential testing`
+<a href="https://krishna-v-gowda.github.io/systems/marketreplay.html"><img src="assets/cards/marketreplay.png" alt="MarketReplay: reconstruct the market state, prove the state" width="100%"></a>
+<b><a href="https://github.com/Krishna-V-Gowda/MarketReplay">MarketReplay</a></b>: a C++20 engine that rebuilds an exchange's order book from its binary feed, matched byte for byte by an independent Python implementation.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://krishna-v-gowda.github.io/systems/trustbench.html"><img src="assets/cards/trustbench.png" alt="TrustBench: test whether analytical software tells the truth" width="100%"></a>
+<b><a href="https://github.com/Krishna-V-Gowda/TrustBench">TrustBench</a></b>: checks the exact code an analytics app ships against independent statistics libraries. It took <a href="https://github.com/Krishna-V-Gowda/EDA-InsightLab-Apex">Apex</a> from 7 to 15 of 16 checks.
+</td>
+<td width="50%" valign="top">
+<a href="https://krishna-v-gowda.github.io/systems/risklab.html"><img src="assets/cards/risklab.png" alt="RiskLab: measure decisions under uncertainty" width="100%"></a>
+<b><a href="https://github.com/Krishna-V-Gowda/RiskLab">RiskLab</a></b>: six ways of splitting money across assets, run through a simulated crash with real trading costs, to see which holds up and whether the difference is real.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://krishna-v-gowda.github.io/systems/data301.html"><img src="assets/cards/data301.png" alt="DATA301 ML Studio: make the mathematics inspectable" width="100%"></a>
+<b><a href="https://github.com/Krishna-V-Gowda/DATA301-ML-Studio">DATA301 ML Studio</a></b>: twelve interactive machine-learning labs for a university course, each built on a small, separately tested maths module.
+</td>
+<td width="50%" valign="top">
+<a href="https://krishna-v-gowda.github.io/systems/apex.html"><img src="assets/cards/apex.png" alt="EDA InsightLab Apex: inspectable analytical decisions" width="100%"></a>
+<b><a href="https://github.com/Krishna-V-Gowda/EDA-InsightLab-Apex">EDA InsightLab Apex</a></b>: a data-exploration app that runs entirely in your browser. The live build is fingerprinted against what TrustBench verified.
 </td>
 </tr>
 </table>
 
-## The evidence stack
-
-| System | Question it makes inspectable | Evidence worth opening |
-|---|---|---|
-| **[TrustBench](https://github.com/Krishna-V-Gowda/TrustBench)** × **[Apex](https://github.com/Krishna-V-Gowda/EDA-InsightLab-Apex)** | Is the analytical product actually computing what it claims? | Exact shipped source, independent statistical references, counterexamples, and a measured defect-to-repair transition. |
-| **[RiskLab](https://github.com/Krishna-V-Gowda/RiskLab)** | Which allocation decisions survive estimation error, regime change, turnover, costs, and tail risk? | Six allocation rules, strict trailing windows, paired block-bootstrap uncertainty, and an adverse synthetic result retained rather than tuned away. |
-| **[DATA301 ML Studio](https://github.com/Krishna-V-Gowda/DATA301-ML-Studio)** | Can interactive ML remain mathematically inspectable? | Twelve live laboratories, framework-independent TypeScript numerical cores, and 60 source tests including 7 metamorphic properties. |
-
-<p align="center">
-  <img src="assets/system-map.svg" alt="Five technical worlds connected through bounded evidence" width="100%">
-</p>
+Also: [Dayflow](https://github.com/Krishna-V-Gowda/dayflow-hrms), an HR system that shows how approving a leave changes team coverage before anyone decides.
 
 ## How I work
 
-```text
-define semantics
-    ↓
-build an independent reference
-    ↓
-break the system on purpose
-    ↓
-measure behavior and uncertainty
-    ↓
-bound the public claim
-```
+1. Write down exactly what each number means before measuring anything.
+2. Build a second, independent way to compute it, so silent mistakes surface.
+3. Break the system on purpose: bad input, outages, future data leaking backwards.
+4. Publish the limits next to the result.
 
-This means malformed frames are first-class MarketReplay inputs; synthetic negative results remain visible in RiskLab; exact browser source—not rewritten formulas—is the TrustBench subject; and Proofloom's model never receives authority to repair financial truth.
+## Get in touch
 
-## Current focus
-
-Reliable AI around consequential workflows · event-driven and low-level systems · quantitative methods under uncertainty · executable evaluation and reproducibility.
-
-## Contact
-
-[kris7090779999@gmail.com](mailto:kris7090779999@gmail.com) · [krishna-v-gowda.github.io](https://krishna-v-gowda.github.io/) · [krivance.com](https://krivance.com/)
+[kris7090779999@gmail.com](mailto:kris7090779999@gmail.com) · [Portfolio](https://krishna-v-gowda.github.io/) · [KRIVANCE](https://krivance.com/)
