@@ -1,63 +1,42 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="Krishna V. Gowda. I build systems that prove they're right." width="100%">
-</picture>
+<a href="https://krishna-v-gowda.github.io/"><img src="assets/banner.svg" alt="Krishna V. Gowda. I build systems that prove they're right. Co-founder and CTO of KRIVANCE." width="100%"></a>
 
-I'm Krishna, a computer science student in Bengaluru and the co-founder and CTO of [KRIVANCE](https://krivance.com/). I build software that can prove its own results, and I put the proof where you can run it yourself.
+<p>
+<a href="https://krishna-v-gowda.github.io/"><img src="assets/btn-portfolio.svg" alt="Open the portfolio" height="40"></a>
+<a href="https://krishna-v-gowda.github.io/#record"><img src="assets/btn-break.svg" alt="Try to break the Record" height="40"></a>
+<a href="https://krivance.com/"><img src="assets/btn-krivance.svg" alt="krivance.com" height="40"></a>
+<a href="mailto:kris7090779999@gmail.com"><img src="assets/btn-email.svg" alt="Email me" height="40"></a>
+</p>
 
-**[Open my portfolio](https://krishna-v-gowda.github.io/)** to watch it happen: your browser re-checks a public, Bitcoin-timestamped forecast record, refuses a settlement that is ₹1.37 short, and replays an exchange feed with a correctness check after every message.
+I build software that can prove its own results, and I put the proof where you can run it yourself. On my portfolio your browser re-checks a signed, Bitcoin-timestamped forecast record, and every project below has a live panel running on its real data.
 
 ## The work
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://krishna-v-gowda.github.io/systems/proofloom.html"><img src="assets/cards/proofloom.png" alt="Proofloom: close the cash, keep the proof" width="100%"></a>
-<b><a href="https://github.com/Krishna-V-Gowda/proofloom">Proofloom</a></b>: a payments settlement close where a model ranks messy evidence, but fixed money rules and a human decide. A 137-paise gap blocks the close.
-</td>
-<td width="50%" valign="top">
-<a href="https://krishna-v-gowda.github.io/systems/marketreplay.html"><img src="assets/cards/marketreplay.png" alt="MarketReplay: reconstruct the market state, prove the state" width="100%"></a>
-<b><a href="https://github.com/Krishna-V-Gowda/MarketReplay">MarketReplay</a></b>: a C++20 engine that rebuilds an exchange's order book from its binary feed, matched byte for byte by an independent Python implementation.
-</td>
+<td width="50%" valign="top"><a href="https://krishna-v-gowda.github.io/systems/proofloom.html"><img src="assets/cards/proofloom.png" alt="Proofloom: close the cash, keep the proof" width="100%"></a><br><b><a href="https://github.com/Krishna-V-Gowda/proofloom">Proofloom</a></b>: refuses to close books that are 137 paise short.</td>
+<td width="50%" valign="top"><a href="https://krishna-v-gowda.github.io/systems/marketreplay.html"><img src="assets/cards/marketreplay.png" alt="MarketReplay: reconstruct the market state, prove the state" width="100%"></a><br><b><a href="https://github.com/Krishna-V-Gowda/MarketReplay">MarketReplay</a></b>: rebuilds an exchange's order book in C++20, matched byte for byte by a second implementation.</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://krishna-v-gowda.github.io/systems/trustbench.html"><img src="assets/cards/trustbench.png" alt="TrustBench: test whether analytical software tells the truth" width="100%"></a>
-<b><a href="https://github.com/Krishna-V-Gowda/TrustBench">TrustBench</a></b>: checks the exact code an analytics app ships against independent statistics libraries. It took <a href="https://github.com/Krishna-V-Gowda/EDA-InsightLab-Apex">Apex</a> from 7 to 15 of 16 checks.
-</td>
-<td width="50%" valign="top">
-<a href="https://krishna-v-gowda.github.io/systems/risklab.html"><img src="assets/cards/risklab.png" alt="RiskLab: measure decisions under uncertainty" width="100%"></a>
-<b><a href="https://github.com/Krishna-V-Gowda/RiskLab">RiskLab</a></b>: six ways of splitting money across assets, run through a simulated crash with real trading costs, to see which holds up and whether the difference is real.
-</td>
+<td width="50%" valign="top"><a href="https://krishna-v-gowda.github.io/systems/trustbench.html"><img src="assets/cards/trustbench.png" alt="TrustBench: test whether analytical software tells the truth" width="100%"></a><br><b><a href="https://github.com/Krishna-V-Gowda/TrustBench">TrustBench</a></b>: tests shipped analytics code against reference libraries, and took Apex from 7 to 15 of 16 checks.</td>
+<td width="50%" valign="top"><a href="https://krishna-v-gowda.github.io/systems/apex.html"><img src="assets/cards/apex.png" alt="EDA InsightLab Apex: inspectable analytical decisions" width="100%"></a><br><b><a href="https://github.com/Krishna-V-Gowda/EDA-InsightLab-Apex">EDA InsightLab Apex</a></b>: data exploration that runs entirely in your browser.</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://krishna-v-gowda.github.io/systems/data301.html"><img src="assets/cards/data301.png" alt="DATA301 ML Studio: make the mathematics inspectable" width="100%"></a>
-<b><a href="https://github.com/Krishna-V-Gowda/DATA301-ML-Studio">DATA301 ML Studio</a></b>: twelve interactive machine-learning labs for a university course, each built on a small, separately tested maths module.
-</td>
-<td width="50%" valign="top">
-<a href="https://krishna-v-gowda.github.io/systems/apex.html"><img src="assets/cards/apex.png" alt="EDA InsightLab Apex: inspectable analytical decisions" width="100%"></a>
-<b><a href="https://github.com/Krishna-V-Gowda/EDA-InsightLab-Apex">EDA InsightLab Apex</a></b>: a data-exploration app that runs entirely in your browser. The live build is fingerprinted against what TrustBench verified.
-</td>
+<td width="50%" valign="top"><a href="https://krishna-v-gowda.github.io/systems/risklab.html"><img src="assets/cards/risklab.png" alt="RiskLab: measure decisions under uncertainty" width="100%"></a><br><b><a href="https://github.com/Krishna-V-Gowda/RiskLab">RiskLab</a></b>: six ways to split money across assets, run through a simulated crash with real trading costs.</td>
+<td width="50%" valign="top"><a href="https://krishna-v-gowda.github.io/systems/data301.html"><img src="assets/cards/data301.png" alt="DATA301 ML Studio: make the mathematics inspectable" width="100%"></a><br><b><a href="https://github.com/Krishna-V-Gowda/DATA301-ML-Studio">DATA301 ML Studio</a></b>: twelve interactive machine-learning labs for a university course.</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://krishna-v-gowda.github.io/systems/dayflow.html"><img src="assets/cards/dayflow.png" alt="Dayflow: every workday, intelligently aligned" width="100%"></a>
-<b><a href="https://github.com/Krishna-V-Gowda/dayflow-hrms">Dayflow</a></b>: an HR system that shows how approving a leave changes team coverage, with a risk call and its reasons, before anyone decides.
-</td>
-<td width="50%" valign="top">
-<b><a href="https://krishna-v-gowda.github.io/">Play with all seven</a></b>: every project on my site has a live panel running on its real data. Tamper with a signed record, corrupt a market feed, or drag points and watch a model refit.
-</td>
+<td width="50%" valign="top"><a href="https://krishna-v-gowda.github.io/systems/dayflow.html"><img src="assets/cards/dayflow.png" alt="Dayflow: every workday, intelligently aligned" width="100%"></a><br><b><a href="https://github.com/Krishna-V-Gowda/dayflow-hrms">Dayflow</a></b>: shows HR what approving a leave does to team coverage, before they decide.</td>
+<td width="50%" valign="top"><a href="https://krishna-v-gowda.github.io/#systems"><img src="assets/cards/all.png" alt="Play with all seven, live on the portfolio" width="100%"></a><br><b><a href="https://krishna-v-gowda.github.io/#systems">All seven, live</a></b>: forge, corrupt, drag and scrub them on my portfolio.</td>
 </tr>
 </table>
 
+## KRIVANCE
+
+<a href="https://krivance.com/"><img src="assets/krivance-card.png" alt="KRIVANCE: quantitative research, sealed before the outcome exists. I am co-founder and CTO." width="100%"></a>
+
 ## How I work
 
-1. Write down exactly what each number means before measuring anything.
-2. Build a second, independent way to compute it, so silent mistakes surface.
-3. Break the system on purpose: bad input, outages, future data leaking backwards.
-4. Publish the limits next to the result.
-
-## Get in touch
-
-[kris7090779999@gmail.com](mailto:kris7090779999@gmail.com) · [Portfolio](https://krishna-v-gowda.github.io/) · [KRIVANCE](https://krivance.com/)
+- Write down exactly what each number means before measuring anything.
+- Build a second, independent way to compute it, so silent mistakes surface.
+- Break the system on purpose: bad input, outages, future data leaking backwards.
+- Publish the limits next to the result.
